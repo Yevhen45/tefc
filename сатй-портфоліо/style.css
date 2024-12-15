@@ -1,0 +1,286 @@
+:root {
+    --main-bg-color: #000000;
+    --main-text-color: #ffffff;
+    --accent-color: #ffcc00; /* Жовтий як акцент */
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+.btn {
+    background-color: var(--main-text-color);
+    color: var(--main-bg-color);
+}
+
+
+
+
+
+
+
+body {
+    background-color:#000000 ;
+    color: #ffffff;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logoo {
+       margin-left: 250px;
+        text-align: center;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .info {
+        margin: 20px;
+    }
+
+    .imagess-three {
+        flex-direction: column;
+    }
+
+    .img-three {
+        margin: 0 auto;
+    }
+
+    .foot-info {
+        padding: 10px;
+    }
+
+}
+
+
+
+.btn:hover {
+    background-color: #252525;
+    color: #ffffff;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+
+a {
+    text-decoration: none;
+    color :#ffffff;
+}
+
+a:hover {
+    color: #ffcc00;
+    transition: color 0.2s ease;
+}
+
+.nav li:not(:first-child) {
+    padding-left: 35px;
+}
+
+.cont {
+    margin-top: 0;
+}
+li {
+    
+    list-style: none;
+}
+/*налаштовуємо назву Portfolio*/
+.head {
+    
+    margin-left:168px ;
+}
+
+.head {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 32px 367px 32px 168px;
+}
+
+
+
+
+.cont {
+    display: flex;
+    margin-right: 39px;
+    margin-bottom: 32px;
+}
+
+.head {
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: -20px;
+    margin-right: 367px;
+}
+.nav {
+   display: flex;
+   font-weight: 700;
+}
+
+.nav :nth-last-child(+n) {
+padding-left: 35px;
+}
+
+.li {
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 27px;
+}
+
+.info {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 168px;
+    margin-right: 300px;
+}
+
+.header-text {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 66px;
+}
+
+.header-title {
+    line-height: 67px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn {
+    width: 200px;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 45px;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 55px;
+    background-color: #ffffff;
+    
+}
+
+.section-one {
+    display: flex;
+}
+
+.img {
+    border-radius: 400px;
+    margin-right: 40px;
+}
+
+.img-three-images {
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+ 
+.svg {
+    border-radius: 300px;
+}
+
+.image-title {
+    margin: 129px 68px;
+}
+.title-about {
+    background-color: #252525;
+    display: flex;
+}
+
+.title-nav {
+    letter-spacing: 8px;
+    height: 54px;
+    font-weight: 600;
+    margin-top: 121px ;
+    font-size: 40px;
+}
+
+.title-nav-text {
+    max-width: 600px;
+    font-size: 24px;
+}
+
+.header-title-three {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 34px;
+    height: 48px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.imagess-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.img-three {
+    justify-content: center;
+    margin-right: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.img-three:first-child {
+    margin-left: 90px;
+}
+
+.img-three-images {
+    border-radius: 10px;
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+.head-project {
+   background-color: #252525;
+}
+
+.line {
+    border: 2px solid #ffffff;
+}
+
+.foot-title {
+    display: flex;
+    margin-bottom: 50px;
+    padding-right: 127px;
+}
+
+.foot-info {
+    text-align: center;
+    padding-left: 124px;
+}
+
+.foot-info:first-child {
+    margin-left: 250px;
+}
+
+.foot-info:last-child {
+    margin-left: 200px;
+}
+.logo {
+    margin-left: 30px;
+    display: flex;
+  
+}
+
+.pp{
+   display: flex;
+   margin-left: 1250px;
+}
+
